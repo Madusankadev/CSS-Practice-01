@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: "poppins";
+    background: #282828;
+}
+
+.btn {
+    padding: 24px 52px;
+    background: black;
+    color: #c7c7c7;
+    font-size: 22px;
+    letter-spacing: 1.5;
+    border: none;
+}
+
+.btnBorder {
+    padding: 4px;
+    background: linear-gradient(115deg ,rgb(201, 201, 91), rgb(238, 86, 86));
+    transition: all ease-in-out 300ms;
+}
+
+.btnBorder:hover {
+    background: linear-gradient(to right,yellow, red);
+    scale: 1.1;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #e2e2e2;
+}
+
+.flag {
+    display: flex;
+}
+
+.flag > div {
+    height: 400px;
+    width: calc(400px * 2 /3);
+}
+
+.flag > div:nth-child(1) {
+    background: #001A8D;
+}
+
+.flag > div:nth-child(2) {
+    background: #fff;
+}
+
+.flag > div:nth-child(3) {
+    background: #FE0028;
+}

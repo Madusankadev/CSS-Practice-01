@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'poppins';
+    display: block;
+    color: #282828;
+    font-size: 36px;
+    letter-spacing: .01em;
+    font-weight: 800;
+}
+
+h1::after {
+    color: #282828;
+    content: "Computers";
+    padding: 14px;
+    margin-left: 10px;
+    background: orangered;
+    border-radius: 14px;
+    color: #fff;
+    animation: swap 12s infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: "Computers";
+    }
+
+    25% {
+        content: "Dogs";
+    }
+
+    50% {
+        content: "Films";
+    }
+
+    75% {
+        content: "Cars";
+    }
+}

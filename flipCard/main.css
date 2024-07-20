@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    padding: 22px 20px;
+    height: 300px;
+    background: greenyellow;
+    font-family: 'poppins';
+    text-align: center;
+    color: #282828;
+    display: flex;
+    align-items: center;
+    transition: all .6s;
+}
+
+.cardFont {
+    display: none;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card:hover .cardFont {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.card:hover .cardBack {
+    display: none;
+
+}

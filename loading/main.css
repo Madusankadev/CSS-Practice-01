@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: calc(100% - 2rem);
+    height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    display: flex;
+}
+
+.dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: gray;
+    margin-inline: 10px;
+    animation: loading .9s infinite;
+}
+
+@keyframes loading {
+    from {
+        scale: .95;
+        background: gray;
+    }
+
+    50% {
+        scale: 1.01;
+        background: #afafaf;
+    }
+
+    to {
+        scale: .95;
+        background: gray;
+    }
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bbbbbb;
+}
+
+.madagascarFlag {
+    display: grid;
+    height: 300px;
+    grid-template-columns: 150px 350px;
+    grid-template-rows: repeat(2, 150px);
+}
+
+.madagascarFlag > div:nth-child(1) {
+    grid-row: span 2;
+    background: #fff;
+}
+
+.madagascarFlag > div:nth-child(2) {
+    background: #FF1F25;
+}
+
+.madagascarFlag > div:nth-child(3) {
+    background: #007E2D;
+}

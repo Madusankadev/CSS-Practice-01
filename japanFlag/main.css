@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+}
+
+.flag {
+    height: 450px;
+    width: calc(450px  * 3 /2);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px 15px rgba(28, 28, 28, .1);
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background: #C60022;
+}

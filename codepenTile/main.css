@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.card {
+    background: #1A1C20;
+    color: #fff;
+    min-width: 350px;
+    max-width: 450px;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mainImg {
+    border-radius: 8px;
+}
+
+.textBox {
+    margin-top: 14px;
+    display: flex;
+}
+
+.textBox > div:nth-child(2) {
+    margin-left: 14px;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: url(./profile.jpg) no-repeat center;
+    background-size: 200%;
+}
+
+.hide {
+    display: flex;
+    margin-top: 22px;
+    display: none;
+    transition: all .5s;
+}
+
+.btn {
+    display: flex;
+    padding: 5px 12px;
+    align-items: center;
+    background: #101212;
+    border-radius: 8px;
+    margin-right: 14px;
+}
+
+.btn p {
+    margin-left: 8px;
+}
+
+.card:hover .hide{
+    display: flex;
+}

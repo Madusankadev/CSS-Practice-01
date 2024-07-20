@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 25px solid rgb(241, 241, 241);
+    border-top: 25px solid olivedrab;
+    animation: loading 1.6s infinite linear;
+}
+
+@keyframes loading {
+    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

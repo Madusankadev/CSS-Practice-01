@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCircle {
+    padding: 32px;
+    border-radius: 186px;
+    background: #232323;
+
+}
+
+.secondaryCircle {
+    padding: 32px;
+    border-radius: 154px;
+    background: #2487F7;
+
+}
+
+.thirdCircle {
+    padding: 32px;
+    border-radius: 112px;
+    background: #FB2A23;
+
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background: #FCFE23;
+}

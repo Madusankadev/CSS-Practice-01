@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+label {
+    display: none;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px 16px;
+    font-family: 'poppins';
+    width: 20%;
+    border: 1px solid #282828;
+    border-radius: 8px;
+    outline: none;
+    transition: all .3s;
+}
+
+input:focus {
+    width: 100%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
